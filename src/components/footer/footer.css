@@ -1,0 +1,136 @@
+.content_{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+    background: #0f1114;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Poppins';
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 300px;
+    /* border: 1px solid red; */
+    
+}
+
+
+
+.section_one .icon{
+    font-size:30px;
+    margin-bottom: 25px;
+}
+
+.section_one .text{
+    margin-bottom: 40px;
+}
+h4{
+   font-size: 17px;
+   color: white; 
+   margin-bottom: 30px;
+}
+hr{
+    opacity: 0.1;
+    
+}
+.info{
+    margin:30px 0;
+    line-height: 30px;
+}
+.bt-3{
+    color: white;
+    background-color: skyblue;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 30px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.contact button{
+    width: 80px;
+}
+
+.section_two{
+    padding-top: 7px;
+}
+
+.section_two ul{
+    margin-top: 30px;
+    list-style: none;
+    line-height: 40px;
+    
+
+}
+.section_two ul button{
+    
+    width: 60px;
+}
+
+#bt-4{
+    margin-top: 30px;
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+    color: white;
+    border-color: white;
+    background: transparent;
+    cursor: pointer;
+    
+}
+
+.section_three{
+    padding-top: 7px;
+    
+}
+.section_three .btnn{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    position: relative;
+    
+}
+
+.bt-5{
+    color: hsl(228, 12%, 48%);
+    border-color: hsl(228, 12%, 48%);
+    border-radius: 5px;
+    margin-left: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 1px solid;
+    background: transparent;
+    padding: 4px 10px;
+     
+}
+.bt-5:hover{
+    position: relative; 
+    bottom: 5px;
+    
+    transition: 0.5s;
+              
+    
+}
+.section_four{
+    padding-top: 7px;
+}
+.section_four .image{
+    margin-top: 20px ;
+    height: 270px;
+    width: 298px;
+    background-image: url(/src/assests/123.jpg);
+    background-position:center;
+    background-size: cover;
+    /* mar */
+}
+.share{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 60%;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
