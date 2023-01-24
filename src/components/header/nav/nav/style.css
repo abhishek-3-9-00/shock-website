@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+section{
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ,url(/src/assests/bg.jpg);
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+    
+}
+
+.menu{
+    position: relative;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 50px;
+}
+
+.menu ul{
+    list-style: none;
+    position: absolute;
+    left: 120px;
+    gap: 20px;
+    display: flex;
+    
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+#stock{
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 6px;
+    padding: 5px 20px;
+    cursor: pointer;
+    border-color:rgb(61, 230, 187);
+    color:rgb(61, 230, 187) ;
+    font-size: 15px;
+}
+
+.heading{
+    
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 80px;
+    position: relative;
+
+}
+
+.heading h1{
+    font-family: 'Londrina Outline', cursive;
+    color:white;
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    font-size: 95px;
+    font-weight: 700;
+}
+
+.heading p{
+    position: absolute;
+    top: 250px;
+    right:400px ;
+    font-size: 60px;
+    font-style: italic;
+}
+.heading span{
+    border-bottom: 15px solid rgb(67, 67, 217);
+}
+
+.footer{
+    padding:0 80px 70px 80px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer ul{
+    display: flex;
+    gap: 5px;
+    margin-top: 40px;
+    align-items: center;
+    list-style: none;
+}
+.footer ul li span{
+    
+    align-items: center;
+    margin-top: 10px;
+    position: relative;
+    top: 4px;
+    opacity: 0.4;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+}
