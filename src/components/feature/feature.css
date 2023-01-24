@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+.feature-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    height: 100%;
+    padding: 0 85px;
+    margin: auto 80px;
+    
+    font-family: 'Poppins';
+    
+    
+}
+.feature_card{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px;
+    box-shadow: 5px 5px  grey;
+    width: 550px;
+    height: 200px;
+    box-shadow:0 0 5px #577592;
+    
+}
+
+.pic{
+    width: 550px;
+    height: 100%;
+    
+}
+ .pic:nth-child(1){
+    background-image: url(/src/assests/bg.jpg);
+    background-repeat:no-repeat;
+    background-size: cover; 
+ } 
+.pic:nth-child(4){
+    background-image: url(/src/assests/img2.webp);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.content{
+    margin: 10px 10px;
+
+}
+.content h1{
+    font-size: 20px;
+    word-wrap: normal;
+    width: 100%;
+}
+.content p{
+    font-size: 13px;
+    padding: 14px 0;
+    
+}
+.content button{
+    border: none;
+    float: right;
+    cursor: pointer;
+    background: transparent;
+}
+.btn{
+    display: flex;
+    padding: 40px 0;
+    margin: 0 80px;
+    margin-bottom: 15px;    
+    justify-content: center;
+    /* background-color: whitesmoke; */
+    
+}
+#bt{
+    border-radius: 0;
+    background-color: whitesmoke;
+    color: black;
+    border-color: black;
+    font-size: 16px;
+    height: 40px;
+    width: 150px;
+}
+#bt span{
+    background-color:black;
+    align-items: center;
+    position: relative;
+    left: 7px;
+    bottom: 4px;
+    height: 100%;
+    padding-top: 8px;
+    padding: 10px;
+    padding-right: 20px;
+    width: 50px;
+}
